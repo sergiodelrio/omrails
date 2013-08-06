@@ -58,5 +58,8 @@ module Omrails
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    #Requerido para Heroku
+    config.assets.initialize_on_precomplie = false
   end
 end
