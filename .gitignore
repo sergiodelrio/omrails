@@ -19,3 +19,6 @@ doc/
 .project
 .idea
 .DS_store
+
+/public/system
+# ignore paper clip images
